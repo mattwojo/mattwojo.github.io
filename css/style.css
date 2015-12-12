@@ -39,7 +39,8 @@ body {
   margin-top: 10px;
   font-size: 1.3rem;
   font-weight: 400;
-  color: chocolate;
+  color: blanchedalmond;
+  text-shadow: 2px 2px 2px black;
   float: left;
 }
 
