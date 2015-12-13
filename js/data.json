@@ -121,11 +121,6 @@
       "name": "Museum of History and Industry",
       "type": "Seattle, Indoors"
     },{
-      "desc": "Most kids love to play in the dirt. Planting seeds in the spring, watching them grow through the summer, and learning an appreciation for where fruits and vegetables come from may help your kids enjoy eating them more. Engage your child more through designating them their own plot to garden, let them help choose the seeds, give them serious tools (not cheap plastic), and don’t be afraid to cheat a little (helping out behind the scenes). ",
-      "shortname": "Plant_a_Garden",
-      "name": "Plant a Garden",
-      "type": "Seattle, Outdoors"
-    },{
       "desc": "Hiking with kids is a great way to get them connected to the outdoors at a young age. Picking a trail that has some features, like a lake, stream, waterfall, etc. will keep kids occupied and give them a goal to reach. Be sure it's not too challenging at first, and plan lots of stops, or this activity could be ruined forever. Look for signs of wildlife (scat, bird holes in trees, fur), identify wildflowers, organize a scavenger hunt and have them find things are bumpy, smelly, small, big, living, wet... plan ways to engage them along the way. A few good hiking destinations around Seattle include: Discovery Park, Lincoln Park, Cedar River Watershed, Mercer Slough in Bellevue, Franklin Falls at Snoqalmie Pass, Deception Pass State Park, or Skagit Wildlife Area. ",
       "shortname": "Hike",
       "name": "Go for a hike on a local trail",
