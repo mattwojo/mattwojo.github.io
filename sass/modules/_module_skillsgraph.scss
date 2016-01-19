@@ -1,0 +1,33 @@
+/*Skills Graph*/
+
+.graph {
+  @include padding(0);
+  margin: 0;
+  list-style-type: none;
+
+  li {
+    @include padding(.2em);
+    margin-bottom: .5em;
+    color: $white;
+  }
+}
+
+li.percent90 {
+  @include bargraph-style(90%, $ninety);
+}
+
+li.percent80 {
+  @include bargraph-style(80%, $eighty);
+}
+
+li.percent70 {
+  @include bargraph-style(70%, $seventy);
+}
+
+li.percent60 {
+  @include bargraph-style(60%, $sixty);
+}
+
+li.percent70-2 {
+  @include bargraph-style(70%, $seventy_2);
+}

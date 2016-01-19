@@ -1,0 +1,11 @@
+.specialText1 {
+  @include special-text($color-1, 1.333em);
+}
+
+.specialText2 {
+  @include special-text($color-3, 1.333em);
+}
+
+.specialText3 {
+  @include special-text($color-2, 1.333em);
+}

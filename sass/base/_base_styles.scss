@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: $white;
+  font: $h1-size $header-font;
+}
+
+h2,
+h1.subTitle {
+  font: $h2-size $header-font;
+  color: #000;
+}
+
+h3 {
+  font: $h3-size $header-font;
+  margin-top: 0;
+  margin-bottom: .7em;
+}
+
+ul {
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid $light-gray;
+  border-radius: 10px;
+  font-family: $body-font;
+  color: $light-gray;
+  width: 200px;
+  padding: .75em 0;
+  margin: 2em .5em 0 .5em;
+  transition: all .25s ease;
+  outline: none;
+}
+
+.textLinks {
+  color: $color-1;
+  transition: color .25s ease;
+  &:hover {
+    color: $color-2;
+  }
+}

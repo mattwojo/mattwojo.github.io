@@ -1,0 +1,45 @@
+.topBottomPadding {
+  @include padding(2em 0);
+}
+
+.about {
+  background-color: $color-2;
+}
+
+.skillsHeader {
+  text-decoration: underline;
+}
+
+.projects {
+  background-color: $color-2;
+}
+
+.contact {
+  background-color: $color-3;
+}
+
+.contactContent {
+  div {
+    @include padding(0 0 2em 0);
+  }
+  @include padding(2em 3em 2em 3em);
+  @media screen and (min-width: $breakpoint-tablet) {
+    @include padding(2em 3em 2em 3em);
+  }
+  @media screen and (min-width: $breakpoint-desktop) {
+    @include padding(5em 20em);
+  }
+}
+
+.footerPadding {
+  @include padding(1em 0);
+}
+
+.skillsPadding {
+  @include padding(0 0 1em 0);
+  @media screen and (min-width: $breakpoint-large-tablet) {
+    @include padding(0 2em);
+  }
+}
+
+

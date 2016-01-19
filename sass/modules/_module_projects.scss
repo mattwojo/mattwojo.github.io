@@ -1,0 +1,36 @@
+/*Project Tile styles*/
+
+.projectTiles {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    @include padding(.5em);
+    width: 45%;
+  }
+
+  h3 {
+    @include padding(.7em 0 0 0);
+    width: 100%;
+  }
+
+  p {
+    font-size: .9em;
+    padding: 10px 10px 0 10px;
+  }
+}
+
+.caption {
+  width: 100%;
+  @include padding(0 0 1em 0);
+}
+
+.skillTag {
+  background-color: #DEDEDE;
+  color: $medium-gray;
+  line-height: 2.5;
+  @include padding(.5em .75em);
+}

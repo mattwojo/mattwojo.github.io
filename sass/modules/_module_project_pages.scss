@@ -1,0 +1,72 @@
+.projectHeaderBackground {
+  @extend .headerBackground;
+  @include padding(5em);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.screenshot {
+  max-width: 18.75em; //300px
+  @media screen and (min-width: $breakpoint-tablet) {
+    max-width: 31.25em; //500px
+  }
+}
+
+.smallScreenshot {
+  max-width: 18.75em;
+  @media screen and (min-width: $breakpoint-tablet) {
+    max-width: 20.3125em;
+  }
+}
+
+.projectPagePadding {
+  @include padding(2em 1em);
+  @media screen and (min-width: $breakpoint-tablet) {
+    @include padding(2em 5em);
+  }
+}
+
+.fullBorder {
+  border: 1px solid $light-gray;
+  @include padding(.75em);
+  @media screen and (min-width: $breakpoint-desktop) {
+    @include padding(.5em);
+  }
+}
+
+.bigTopBottomPadding {
+  @include padding(2em 0);
+  @media screen and (min-width: $breakpoint-desktop) {
+    @include padding(4em 0);
+  }
+}
+
+.projectSectionHalf {
+  @media screen and (min-width: $breakpoint-large-tablet){
+    display: block;
+    width: 100%;
+  }
+  @media screen and (min-width: $breakpoint-desktop){
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 50%;
+  }
+}
+
+.projectSectionThirds {
+  @media screen and (min-width: $breakpoint-large-tablet){
+    display: block;
+    width: 100%;
+  }
+  @media screen and (min-width: $breakpoint-large-desktop){
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 33.33333%;
+  }
+}

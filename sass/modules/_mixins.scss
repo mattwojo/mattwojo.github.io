@@ -1,0 +1,14 @@
+@mixin bargraph-style($width, $color) {
+  width: $width;
+  background-color: $color;
+}
+
+@mixin padding($padding) {
+  padding: $padding;
+}
+
+@mixin special-text($color, $size) {
+  font-family: $header-font;
+  color: $color;
+  font-size: $size;
+}

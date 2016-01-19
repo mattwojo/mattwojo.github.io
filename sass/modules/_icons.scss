@@ -1,0 +1,30 @@
+.icon {
+  width: 50px;
+  @include padding(0 .25em);
+}
+
+.largeIcon {
+  max-width: 100px;
+  padding: .7em .7em;
+}
+
+.largerIcon {
+  max-width: 150px;
+  padding: .7em .7em;
+}
+
+.socialIcons {
+  margin-top: 1em;
+  @media screen and (min-width: $breakpoint-desktop) {
+    margin-top: 0;
+  }
+}
+
+.imageLink {
+  transition: opacity .20s ease;
+  opacity: 1;
+}
+
+.imageLink[alt="screenshot"]{
+    width: 90%;
+}
