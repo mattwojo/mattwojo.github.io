@@ -1393,7 +1393,7 @@ button {
 @media screen and (min-width: 62.5em) and (min-width: 71.875em) {
   .wrap h2 {
     font-size: 4em;
-    margin: 15px 0 0 0; }
+    margin: 100px 0 0 0; }
   .wrap h4 {
     font-size: 18px;
     padding: 0 10%; } }
