@@ -21,3 +21,12 @@ button:focus {
   outline: none;
 }
 
+.skillTag:hover {
+  opacity: .5;
+  outline: none;
+
+  a {
+    color: $color-2;
+    font-weight: 900;
+  }
+}

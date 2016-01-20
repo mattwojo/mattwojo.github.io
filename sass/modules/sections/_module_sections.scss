@@ -1,9 +1,13 @@
 .topBottomPadding {
-  @include padding(2em 0);
+  @include padding(1em 0);
 }
 
 .about {
   background-color: $color-2;
+  h3 {
+    color: white;
+    padding-top: 10px;
+  }
 }
 
 .skillsHeader {

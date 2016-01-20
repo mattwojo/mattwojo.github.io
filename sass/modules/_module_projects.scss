@@ -33,4 +33,8 @@
   color: $medium-gray;
   line-height: 2.5;
   @include padding(.5em .75em);
+
+  a {
+    color: #737373;
+  }
 }

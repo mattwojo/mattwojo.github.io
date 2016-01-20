@@ -12,8 +12,16 @@
   }
 }
 
+li.percent100 {
+  @include bargraph-style(100%, $hundred);
+}
+
 li.percent90 {
   @include bargraph-style(90%, $ninety);
+}
+
+li.percent90-2 {
+  @include bargraph-style(90%, $ninety_2);
 }
 
 li.percent80 {
@@ -28,6 +36,3 @@ li.percent60 {
   @include bargraph-style(60%, $sixty);
 }
 
-li.percent70-2 {
-  @include bargraph-style(70%, $seventy_2);
-}

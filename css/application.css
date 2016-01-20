@@ -1159,10 +1159,13 @@ button {
     clear: both;
     width: 100%; } }
 .topBottomPadding {
-  padding: 2em 0; }
+  padding: 1em 0; }
 
 .about {
   background-color: #2f3069; }
+  .about h3 {
+    color: white;
+    padding-top: 10px; }
 
 .skillsHeader {
   text-decoration: underline; }
@@ -1318,7 +1321,10 @@ button {
   padding: 5em 1em; }
   @media screen and (min-width: 43.75em) {
     .headerBackground, .projectHeaderBackground {
-      padding: 10em 4em; } }
+      padding: 5em 4em; } }
+  @media screen and (min-width: 48em) {
+    .headerBackground, .projectHeaderBackground {
+      padding: 5em 4em; } }
   @media screen and (min-width: 62.5em) {
     .headerBackground, .projectHeaderBackground {
       padding: 10em; } }
@@ -1349,7 +1355,7 @@ button {
 .wrap h4 {
   font-size: 1em;
   font-weight: 400;
-  padding: 0 10px; }
+  padding: 0 10%; }
 
 .inner {
   display: none; }
@@ -1360,7 +1366,11 @@ button {
 
   .wrap h4 {
     font-size: 2vw;
-    padding: 0 20%; } }
+    padding: 0 10%; } }
+@media screen and (min-width: 48em) {
+  .wrap h4 {
+    padding: 0 20%;
+    font-size: 2vw; } }
 @media screen and (min-width: 62.5em) {
   .wrap, .inner {
     position: absolute;
@@ -1379,8 +1389,15 @@ button {
     z-index: -1;
     perspective: 2000; }
     .wrap h2 {
-      margin: 10% 0 0 0; }
-
+      margin: 10% 0 0 0; } }
+@media screen and (min-width: 62.5em) and (min-width: 71.875em) {
+  .wrap h2 {
+    font-size: 4em;
+    margin: 15px 0 0 0; }
+  .wrap h4 {
+    font-size: 18px;
+    padding: 0 10%; } }
+@media screen and (min-width: 62.5em) {
   .inner {
     display: inherit;
     background: url(http://wallpapercave.com/wp/xX2GRj6.gif) repeat 0 0;
@@ -1393,7 +1410,7 @@ button {
 
 .largeIcon {
   max-width: 100px;
-  padding: .7em .7em; }
+  padding: 5px; }
 
 .largerIcon {
   max-width: 150px;
@@ -1422,9 +1439,17 @@ button {
     margin-bottom: .5em;
     color: #FFF; }
 
+li.percent100 {
+  width: 100%;
+  background-color: #890B00; }
+
 li.percent90 {
   width: 90%;
   background-color: #077F4C; }
+
+li.percent90-2 {
+  width: 90%;
+  background-color: #d62d20; }
 
 li.percent80 {
   width: 80%;
@@ -1437,10 +1462,6 @@ li.percent70 {
 li.percent60 {
   width: 60%;
   background-color: #0E1E60; }
-
-li.percent70-2 {
-  width: 70%;
-  background-color: #890B00; }
 
 /*Project Tile styles*/
 .projectTiles {
@@ -1468,6 +1489,8 @@ li.percent70-2 {
   color: #737373;
   line-height: 2.5;
   padding: 0.5em 0.75em; }
+  .skillTag a {
+    color: #737373; }
 
 .specialText1 {
   font-family: "Droid Sans", sans-serif;
@@ -1565,5 +1588,12 @@ button:focus {
   color: #8499b1;
   border-color: #8499b1;
   outline: none; }
+
+.skillTag:hover {
+  opacity: .5;
+  outline: none; }
+  .skillTag:hover a {
+    color: #2f3069;
+    font-weight: 900; }
 
 /*# sourceMappingURL=application.css.map */
