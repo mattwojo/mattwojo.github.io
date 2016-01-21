@@ -49,10 +49,8 @@ $(document).ready(function() {
 
 });
 
-// Referenced from Easy Peasy Parallax by Brian Douglas
+// Thank you to David A (@meodai) for this very effiecient "Easy Parallax, 10 lines of vanilla JS" http://codepen.io/meodai/pen/ZGYgNV
 
-// window.addEventListener('resize', function(){
-//     if(window.innerWidth > 900){
 if(window.innerWidth > 999){
       var x = xGoal = y = yGoal = 0, easingRatio = 0.01, raf, wrap = document.querySelector('.js-parallax');
       raf = function (){
@@ -65,5 +63,3 @@ if(window.innerWidth > 999){
         xGoal = e.pageX, yGoal = e.pageY;
       });
 }
-//     }
-// });
