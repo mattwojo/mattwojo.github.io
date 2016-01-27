@@ -1,3 +1,5 @@
 # Portfolio
 
-My online portfolio is currently in progress.
+Visit my online portfolio at [http://www.mattwojo.com](http://www.mattwojo.com).
+
+*(Currently in progress.)*
