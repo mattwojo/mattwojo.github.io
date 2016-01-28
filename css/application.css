@@ -370,7 +370,7 @@ button {
   color: #8499b1;
   transition: color .25s ease; }
   .textLinks:hover {
-    color: #2f3069; }
+    color: #0E0D37; }
 
 .fullWidth {
   width: 100%; }
@@ -1162,7 +1162,7 @@ button {
   padding: 1em 0; }
 
 .about {
-  background-color: #2f3069; }
+  background-color: #0E0D37; }
   .about h3 {
     color: white;
     padding-top: 10px; }
@@ -1171,10 +1171,10 @@ button {
   text-decoration: underline; }
 
 .projects {
-  background-color: #2f3069; }
+  background-color: #0E0D37; }
 
 .contact {
-  background-color: #5e1118; }
+  background-color: #0E0D37; }
 
 .contactContent {
   padding: 2em 3em 2em 3em; }
@@ -1295,7 +1295,7 @@ button {
         padding: 1.5em; } }
 
 .navFooterColor {
-  background-color: #3B3B3B; }
+  background-color: #0E0D37; }
 
 .navLinks {
   transition: color .25s ease;
@@ -1499,12 +1499,12 @@ li.percent60 {
 
 .specialText2 {
   font-family: "Droid Sans", sans-serif;
-  color: #5e1118;
+  color: #2f3069;
   font-size: 1.333em; }
 
 .specialText3 {
   font-family: "Droid Sans", sans-serif;
-  color: #2f3069;
+  color: #0E0D37;
   font-size: 1.333em; }
 
 .projectHeaderBackground {
@@ -1572,7 +1572,7 @@ li.percent60 {
 .navLinks:hover,
 .navLinks:active,
 .navLinks:focus {
-  color: #8499b1;
+  color: #9E9E9E;
   outline: none; }
 
 .imageLink:hover,
@@ -1593,7 +1593,7 @@ button:focus {
   opacity: .5;
   outline: none; }
   .skillTag:hover a {
-    color: #2f3069;
+    color: #0E0D37;
     font-weight: 900; }
 
 /*# sourceMappingURL=application.css.map */
