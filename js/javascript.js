@@ -55,7 +55,8 @@ if(window.innerWidth > 999){
       var x = xGoal = y = yGoal = 0, easingRatio = 0.01, raf, wrap = document.querySelector('.js-parallax');
       raf = function (){
         x += (xGoal - x) * easingRatio; y += (yGoal - y) * easingRatio;
-        wrap.style.transform = 'translate3d(' + -x + 'px, ' + -y + 'px, 0)';
+        var ax = Math.max(-y, -200);
+        wrap.style.transform = 'translate3d(' + -x + 'px, ' + ax + 'px, 0)';
         requestAnimationFrame(raf);
       };
       raf();
